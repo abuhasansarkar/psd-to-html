@@ -1,0 +1,521 @@
+/* google font */
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap');
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+h1,
+h2,
+h3,
+h5,
+h6 {
+    margin: 0;
+    padding: 0;
+}
+
+
+/* header-area css start */
+
+.container {
+    width: 75%;
+    margin: auto;
+}
+
+.main-header-area {
+    padding: 60px 0;
+}
+
+.header-area {
+    background: linear-gradient(rgba(135, 80, 156, 0.801), rgba(135, 80, 156, 0.801)), url(img/background.jpg);
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: #ffffff;
+    padding-bottom: 100px;
+}
+
+.main-header {
+    overflow: hidden;
+}
+
+.sec-header .heading h1 {
+    line-height: 100px;
+}
+
+.logo-area img {
+    float: left;
+    display: inline-block;
+    margin-top: 0px;
+}
+
+.active {
+    background: #643A79;
+    border-radius: 10px;
+    padding: 10px 20px;
+}
+
+.manu-area {
+    float: right;
+}
+
+.manu-area ul {
+    margin-top: 30px;
+}
+
+.manu-area ul li {
+    list-style: none;
+    display: inline;
+    margin-right: 10px;
+}
+
+.manu-area ul li a {
+    color: #ffffff;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 10px 20px;
+}
+
+.manu-area ul li a:hover {
+    background: #643A79;
+    border-radius: 10px;
+}
+
+.sec-header {
+    text-align: center;
+}
+
+.sec-header h1 {
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 10px;
+    margin-top: px;
+}
+
+.sec-header .heading h1 {
+    margin-top: 100px;
+}
+
+.header-btn {
+    margin-top: 100px;
+}
+
+.sec-header .header-btn a {
+    padding: 20px 50px;
+    text-transform: uppercase;
+    background: #EB7D4C;
+    border-bottom: #C76A3F 5px solid;
+    border-radius: 10px;
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.sec-header .header-btn a:hover {
+    background: #C76A3F;
+}
+
+
+/* header-area css end */
+
+
+/* services-area css start */
+
+.services-area {
+    background: #1bc0a2;
+}
+
+.services-heading {
+    text-align: center;
+    width: 60%;
+    margin: auto;
+    color: #ffffff;
+}
+
+.services-heading h2 {
+    text-transform: uppercase;
+    font-size: 40px;
+    padding-top: 100px;
+    margin: 0px;
+    margin-bottom: 10px;
+}
+
+.services-heading p {
+    line-height: 20px;
+    font-size: 20px;
+}
+
+.services-heading .devidor {
+    width: 100px;
+    height: 5px;
+    background: #11a086;
+    text-align: center;
+    margin: auto;
+    border-radius: 10px;
+}
+
+.all-services-box {
+    padding: 100px 0;
+}
+
+.services-box {
+    width: 23%;
+    margin: auto;
+    display: inline-block;
+    overflow: hidden;
+    margin: 0 8px;
+    text-align: center;
+    color: #ffffff;
+}
+
+.services-box h4 {
+    text-transform: uppercase;
+    font-size: 20px;
+}
+
+
+/* services-area css start */
+
+
+/* our teem area css start */
+
+.teem-area {
+    background: #E7F2F8;
+}
+
+.teem-heading {
+    text-align: center;
+    width: 50%;
+    margin: auto;
+    color: #1E1E1E;
+}
+
+.teem-heading h2 {
+    text-transform: uppercase;
+    font-size: 40px;
+    padding-top: 100px;
+    margin: 0px;
+    margin-bottom: 10px;
+}
+
+.teem-box img {
+    border-radius: 50%;
+    height: 200px;
+    width: 200px;
+}
+
+.teem-heading p {
+    line-height: 20px;
+    font-size: 20px;
+}
+
+.teem-heading .devidor {
+    width: 100px;
+    height: 5px;
+    background: #1E1E1E;
+    text-align: center;
+    margin: auto;
+    border-radius: 10px;
+}
+
+.all-teem-box {
+    padding: 100px 0;
+}
+
+.teem-box {
+    width: 23%;
+    margin: auto;
+    display: inline-block;
+    overflow: hidden;
+    margin: 0 8px;
+    text-align: center;
+    color: #1E1E1E;
+}
+
+.teem-box h4 {
+    text-transform: uppercase;
+    font-size: 20px;
+}
+
+.teem-box h6 {
+    color: #7ACCEC;
+    font-size: 15px;
+    margin: 0;
+    padding: 0;
+}
+
+
+/* our teem area css end */
+
+
+/* skills area css start  */
+
+.skills-area {
+    background: #f3f3f3;
+}
+
+.skills-heading {
+    text-align: center;
+    width: 60%;
+    margin: auto;
+    color: #<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora, debitis!</p>;
+}
+
+.skills-heading h2 {
+    text-transform: uppercase;
+    font-size: 40px;
+    padding-top: 100px;
+    margin: 0px;
+    margin-bottom: 10px;
+}
+
+.skills-heading .devidor {
+    width: 100px;
+    height: 5px;
+    background: #11a086;
+    text-align: center;
+    margin: auto;
+    border-radius: 10px;
+}
+
+.all-skills-box {
+    padding: 100px 0;
+}
+
+.skills-box {
+    width: 23%;
+    margin: auto;
+    display: inline-block;
+    overflow: hidden;
+    margin: 0 8px;
+    text-align: center;
+    color: #000000;
+}
+
+.skills-box h4 {
+    text-transform: uppercase;
+    font-size: 20px;
+}
+
+
+/* skills area css end  */
+
+
+/* our-portfolio-area css start */
+
+.our-portfolio-area {
+    background: #FFDC98;
+}
+
+.portfolio-heading {
+    text-align: center;
+    width: 50%;
+    margin: auto;
+    color: #1E1E1E;
+}
+
+.portfolio-heading h2 {
+    text-transform: uppercase;
+    font-size: 40px;
+    padding-top: 100px;
+    margin: 0px;
+    margin-bottom: 10px;
+}
+
+.portfolio-heading .devidor {
+    width: 100px;
+    height: 5px;
+    background: #1E1E1E;
+    text-align: center;
+    margin: auto;
+    border-radius: 10px;
+}
+
+.container .nav-area {
+    text-align: center;
+}
+
+.container .nav-area ul {
+    margin: 50px 0;
+}
+
+.container .nav-area ul li {
+    list-style: none;
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.container .nav-area ul li a {
+    text-decoration: none;
+    padding: 10px 30px;
+    background: #EBC884;
+    color: #1f1c1c;
+    border-radius: 10px;
+    text-transform: uppercase;
+}
+
+.container .nav-area ul li a:hover {
+    background: #ffffff;
+}
+
+.portfolio-box {
+    text-align: center;
+}
+
+.portfolio-img .img-box h5 {
+    font-size: 20px;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+
+.portfolio-img .img-box {
+    display: inline-block;
+    margin: 20px;
+}
+
+.main-portfolio-area .btn-area {
+    text-align: center;
+    padding: 100px 0;
+}
+
+.main-portfolio-area .btn-area a {
+    text-decoration: none;
+    color: #ffffff;
+    padding: 20px 50px;
+    background-color: #16ad94;
+    font-size: 20px;
+    border-radius: 5px;
+    border-bottom: #139e87 4px solid;
+    text-transform: uppercase;
+}
+
+.main-portfolio-area .btn-area a:hover {
+    background: #139e87;
+}
+
+
+/* our-portfolio-area css end*/
+
+
+/* contact area css start  */
+
+.contact-area {
+    background: #3c5499;
+}
+
+.contact-heading {
+    text-align: center;
+    width: 60%;
+    margin: auto;
+    color: #ffffff;
+}
+
+.contact-heading h2 {
+    text-transform: uppercase;
+    font-size: 40px;
+    padding-top: 100px;
+    margin: 0px;
+    margin-bottom: 10px;
+}
+
+.contact-heading p {
+    line-height: 20px;
+    font-size: 20px;
+}
+
+.contact-heading .devidor {
+    width: 100px;
+    height: 5px;
+    background: #11a086;
+    text-align: center;
+    margin: auto;
+    border-radius: 10px;
+}
+
+.contact-box-area {
+    padding-bottom: 100px;
+    text-align: center;
+    margin: 0 20px;
+}
+
+.contact-box-area .your-name {
+    width: 45%;
+    margin: auto;
+    display: inline-block;
+    margin: 20px 15px;
+    background: #273a71;
+    padding: 15px 5px;
+    border: none;
+    border-radius: 10px;
+}
+
+.contact-box-area .your-message {
+    width: 95%;
+    padding-bottom: 100px;
+    background: #273a71;
+    border: none;
+    border-radius: 10px;
+    margin: 5px 10px;
+    margin: auto;
+}
+
+.contact-box-area .btn {
+    margin-top: 50px;
+    text-align: center;
+}
+
+.contact-box-area .btn a {
+    border-radius: 5px;
+    text-decoration: none;
+    text-transform: uppercase;
+    background: #30bae7;
+    padding: 20px 80px;
+    margin-top: 20px;
+    color: rgb(255, 255, 255);
+    font-weight: 500;
+    font-size: 20px;
+    border-bottom: #21a5d1 5px solid;
+}
+
+.contact-box-area .btn a:hover {
+    background: #21a5d1;
+}
+
+
+/* contact area css end  */
+
+
+/* foother area css start  */
+
+.contact-area .foother-area {
+    text-align: center;
+    background-color: #344b8e;
+}
+
+.contact-area .foother-manu ul {
+    background-color: #344b8e;
+}
+
+.contact-area .foother-manu ul li {
+    list-style: none;
+    display: inline-block;
+    text-align: center;
+    margin: 10px;
+    padding: 20px 0;
+}
+
+.contact-area .foother-manu ul li a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    text-transform: capitalize;
+}
+
+.contact-area .foother-manu ul li a:hover {
+    color: #31a1d2;
+}
+
+
+/* foother area css end  */
